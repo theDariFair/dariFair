@@ -1,0 +1,81 @@
+<app-special-messages></app-special-messages>
+<div class="introCtn">
+  <p class="intro">
+   Dari Fair is a Mishawaka, Indiana favorite for
+  sweet treats, and good eats.
+  </p>
+      <h3 class="location">Located at 4012 Lincolnway East Mishawaka, IN 46544 
+  <br>Check in on Facebook to receive a discount
+  <br><br>&nbsp;
+      <i class="fab fa-facebook-square fa-3x">
+        <a class="navbar-brand" href="https://www.facebook.com/DariFair/"></a>
+      </i>
+  </h3>
+   
+  </div>
+
+<!-- accordion below -->
+<!-- food below -->
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Food Menu 
+        </button>
+      </h2>
+    </div>
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <app-burgers></app-burgers>
+        <app-sandwiches></app-sandwiches>
+        <app-dogs></app-dogs>
+        <app-finger-foods></app-finger-foods>
+        <app-sides></app-sides>
+        <app-inferno></app-inferno>
+
+      </div>
+    </div>
+  </div>
+  <!-- dessert below -->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Dessert Menu
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+             <app-floates-shakes></app-floates-shakes>     
+         <app-frappes></app-frappes>
+         <app-ice-cream></app-ice-cream>    
+         <app-novelties></app-novelties> 
+         <app-razzles></app-razzles>
+         <app-slush-freeze></app-slush-freeze>
+         <app-smoothies></app-smoothies>
+         <app-special-treats></app-special-treats>
+         <app-misc-drinks></app-misc-drinks> 
+      </div>
+    </div>
+  </div>
+  <!-- soft serve below -->
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Soft Serve Flavors
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <app-ss-flavors></app-ss-flavors>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <app-about-us></app-about-us>
+<app-contact-us></app-contact-us>

@@ -1,0 +1,90 @@
+app-special-messages{
+  text-align: center;
+
+}
+.introCtn{
+  background-color: white;
+  // border-radius: 25px;
+  border: 1px gray solid;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 15px gray;
+}
+.location{
+  color: black;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+i{
+  color: #46b;
+}
+i:hover{
+  color: black;
+}
+.intro{
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  line-height: 90%;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.accordion{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px gray;
+  // border-radius: 25px;
+  margin-bottom: 20px;
+}
+.card-header{
+  text-align: center;
+  overflow: hidden;
+}
+.btn-link{
+  font-size: 1em;
+  color: white;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+  .accordion{
+    width: 95%;
+    margin-bottom: 40px;
+  }
+  .introCtn{
+    width: 95%;
+    padding-bottom: 20px;
+  }  
+
+  }
+
+
+  #headingOne{
+    background-color: #db5391;
+  }
+  #headingTwo{
+    background-color: #6aa8c4;
+  }
+  #headingThree{
+    background-color: #a67ea1;
+  }

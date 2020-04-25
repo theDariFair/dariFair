@@ -1,0 +1,45 @@
+.accordion{
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.card-header{
+  text-align: center;
+  overflow: hidden;
+}
+.btn-link{
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 990px) {
+    .accordion{
+      width: 100%;
+      margin-bottom: 20px;
+    }
+      
+    }
+    #headingOne{
+      background-color: #db5391;
+    }
+    #headingTwo{
+      background-color: #db5391;
+    }
+    #headingThree{
+      background-color: #db5391;
+    }
+    #headingFour{
+      background-color: #db5391;
+    }
+    #headingFive{
+      background-color: #db5391;
+    }
+    #headingSix{
+      background-color: #db5391;
+    }

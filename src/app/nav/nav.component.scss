@@ -1,0 +1,44 @@
+nav{
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+.navbar{
+  background-color: black;
+}
+ul{
+ margin-left: auto;
+ margin-right: auto;
+}
+a{
+  color: white;
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 1em;
+}
+.responsive{
+  height: auto;
+  width: auto;
+}
+a:hover{
+  color:  #e59;
+  
+}
+a:active{
+  color: #e59;
+}
+@media only screen and (max-width: 990px) {
+  .navbar-brand{
+    width: 20%;
+    
+  }
+  .navbar-toggler-icon{
+    color: white;
+    font-size: 1.0em;
+    padding: 0 0 0 0;
+    margin: 0;
+    transform: rotate(90deg);
+  }
+  
+}
