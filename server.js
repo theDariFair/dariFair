@@ -2,9 +2,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cors = require('cors');
-// const html = __dirname + 'src';
-// const bodyParser = require('body-parser')
-
 const forceSSL = function() {
   return function (req, res, next) {
     if (req.headers['x-forwarded-proto'] !== 'https') {
@@ -27,9 +24,9 @@ app.use(function (req, res, next) {
   next();
 });
 app.use(cors());
-app.use(express.static('./dist/thedariFair'));
+app.use(express.static('dist/thedariFair'));
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname,'./dist/thedariFair/index.html'));
+  res.sendFile(path.join(__dirname,'/dist/thedariFair/index.html'));
 });
 
 
