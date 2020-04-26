@@ -29,11 +29,11 @@ app.use(function (req, res, next) {
 app.use(cors());
 app.use(express.static('dist/thedariFair'));
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname,'/dist/thedariFair/index.html'));
+  res.sendFile(path.join(__dirname,'dist/thedariFair/index.html'));
 });
 
 
-app.listen(process.env.PORT || 4300, function() {
+app.listen(process.env.PORT || 4200, function() {
   console.log('Listening on port ' + this.address().port);
 });
 
