@@ -8,10 +8,10 @@ import { AppRoutingModule } from './app-routing.module';
   declarations: [
     AppComponent,
     NavComponent,
-    
+
   ],
   imports: [
-    BrowserModule, AppRoutingModule, 
+    BrowserModule, AppRoutingModule
   ],
   providers: [],
 
