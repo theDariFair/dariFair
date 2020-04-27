@@ -15,7 +15,7 @@ const forceSSL = function() {
 // Instruct the app
 // to use the forceSSL
 // middleware
-// app.use(forceSSL()); //enable this once ssl has been set up.
+app.use(forceSSL()); //enable this once ssl has been set up.
 app.use(express.urlencoded());
 app.use(express.json());
 app.use(function (req, res, next) {
