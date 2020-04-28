@@ -16,7 +16,7 @@ const forceSSL = function() {
 // Instruct the app
 // to use the forceSSL
 // middleware
-app.use(forceSSL()); //enable this once ssl has been set up.
+// app.use(forceSSL()); //enable this once ssl has been set up.
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.json());
@@ -26,11 +26,14 @@ app.use(function (req, res, next) {
   next();
 });
 app.use(cors());
-app.use(express.static('app/dist/thedariFair'));
-app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname,'app/dist/thedariFair/index.html'));
+app.use(express.static('dist/thedariFair'));
+// app.get('*', function(req, res) {
+//   res.sendFile(path.join(__dirname,'dist/thedariFair/index.html'));
+// });
+app.get('*', function (req, res) {
+  const index = path.join(__dirname, 'dist/thedarifair', 'index.html');
+  res.sendFile(index);
 });
-
 
 app.listen(process.env.PORT || 8888, function() {
   console.log('Listening on port ' + this.address().port);
