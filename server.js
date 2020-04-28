@@ -26,9 +26,9 @@ app.use(function (req, res, next) {
   next();
 });
 app.use(cors());
-app.use(express.static('dist/thedariFair'));
+app.use(express.static('app/dist/thedariFair'));
 app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname,'dist/thedariFair/index.html'));
+  res.sendFile(path.join(__dirname,'app/dist/thedariFair/index.html'));
 });
 
 
