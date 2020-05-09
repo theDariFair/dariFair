@@ -6,24 +6,24 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li role="presentation" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact:true}">
+    <ul class="navbar-nav mr-auto" >
+      <li role="presentation" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkActive="router-link-active" [routerLinkActiveOptions]="{exact:true}">
         <a class="nav-link" [routerLink]="['/']"><i class="fas fa-home"></i>&nbsp;&nbsp; Home</a>
       </li>
-      <li class="nav-item"routerLinkActive="router-link-active">
+      <li class="nav-item" data-toggle="collapse"data-target=".navbar-collapse.show" routerLinkActive="router-link-active">
         <a class="nav-link" [routerLink]="['/aboutUs']"><i class="far fa-question-circle"></i>&nbsp;&nbsp; About </a>
       </li>
-      <li class="nav-item"routerLinkActive="router-link-active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkActive="router-link-active">
           <a class="nav-link" [routerLink]="['/foodMenu']"><i class="fas fa-hamburger"></i>&nbsp;&nbsp;Food Menu </a>
         </li>
-        <li class="nav-item"routerLinkActive="router-link-active">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" routerLinkActive="router-link-active">
           <a class="nav-link" [routerLink]="['/dessertMenu']"><i class="fas fa-ice-cream"></i>&nbsp;&nbsp;Dessert Menu </a>
         </li>
-      <li class="nav-item"routerLinkActive="router-link-active">
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"routerLinkActive="router-link-active">
         <a class="nav-link" [routerLink]="['/ssMenu']"><i class="fas fa-star"></i>&nbsp;&nbsp;Soft Serve Flavors </a>
       </li>
-      <li class="nav-item"routerLinkActive="router-link-active">
-        <a class="nav-link" [routerLink]="['/contactUs']"><i class="fas fa-phone"></i>&nbsp;&nbsp;Contact Us </a>
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"routerLinkActive="router-link-active">
+        <a class="nav-link"  [routerLink]="['/contactUs']"><i class="fas fa-phone"></i>&nbsp;&nbsp;Contact Us </a>
       </li>
     </ul>
 
