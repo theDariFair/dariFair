@@ -37,7 +37,7 @@ export const BURGERS: IBurgers[] = [
     Type: 'Burgers',
     Name: 'Double Cheeseburger',
     Size_QTY: '',
-    Price: '$6.49',
+    Price: '$5.25',
     MealPrice: '$7.99',
     Ingredients: ''
   },
@@ -45,8 +45,8 @@ export const BURGERS: IBurgers[] = [
     Type: 'Burgers',
     Name: 'Double Bacon Cheeseburger',
     Size_QTY: '',
-    Price: '$6.49',
-    MealPrice: '',
+    Price: '$6.25',
+    MealPrice: '$8.99',
     Ingredients: ''
   },
   {
